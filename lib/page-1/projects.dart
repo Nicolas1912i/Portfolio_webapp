@@ -52,7 +52,7 @@ class ProjectScene extends StatelessWidget {
                     child: Text(
                       'Nicolas Arias Escudero',
                       textAlign: TextAlign.center,
-                      style: SafeGoogleFont (
+                      style: safeGoogleFont (
                         'Halant',
                         fontSize: 48*ffem,
                         fontWeight: FontWeight.w400,
@@ -76,7 +76,7 @@ class ProjectScene extends StatelessWidget {
                     child: Text(
                       'Diseñador & Desarrollador',
                       textAlign: TextAlign.center,
-                      style: SafeGoogleFont (
+                      style: safeGoogleFont (
                         'Halant',
                         fontSize: 36*ffem,
                         fontWeight: FontWeight.w400,
@@ -121,7 +121,7 @@ class ProjectScene extends StatelessWidget {
                     ),
                     child: Text(
                       'Info',
-                      style: SafeGoogleFont (
+                      style: safeGoogleFont (
                         'Halant',
                         fontSize: 36*ffem,
                         fontWeight: FontWeight.w700,
@@ -150,7 +150,7 @@ class ProjectScene extends StatelessWidget {
                     ),
                     child: Text(
                       'Home',
-                      style: SafeGoogleFont (
+                      style: safeGoogleFont (
                         'Halant',
                         fontSize: 36*ffem,
                         fontWeight: FontWeight.w700,
@@ -172,7 +172,7 @@ class ProjectScene extends StatelessWidget {
                   height: 101*fem,
                   child: Text(
                     '•',
-                    style: SafeGoogleFont (
+                    style: safeGoogleFont (
                       'Halant',
                       fontSize: 64*ffem,
                       fontWeight: FontWeight.w700,
@@ -200,7 +200,7 @@ class ProjectScene extends StatelessWidget {
                     ),
                     child: Text(
                       'Contact',
-                      style: SafeGoogleFont (
+                      style: safeGoogleFont (
                         'Halant',
                         fontSize: 36*ffem,
                         fontWeight: FontWeight.w700,
@@ -228,7 +228,7 @@ class ProjectScene extends StatelessWidget {
                       margin: EdgeInsets.fromLTRB(0*fem, 0*fem, 46*fem, 11.5*fem),
                       child: Text(
                         '■ Projects (Design & Develop)',
-                        style: SafeGoogleFont (
+                        style: safeGoogleFont (
                           'Halant',
                           fontSize: 24*ffem,
                           fontWeight: FontWeight.w400,
@@ -254,7 +254,7 @@ class ProjectScene extends StatelessWidget {
                                 child: RichText(
                                   textAlign: TextAlign.right,
                                   text: TextSpan(
-                                    style: SafeGoogleFont (
+                                    style: safeGoogleFont (
                                       'Halant',
                                       fontSize: 24*ffem,
                                       fontWeight: FontWeight.w400,
@@ -264,7 +264,7 @@ class ProjectScene extends StatelessWidget {
                                     children: [
                                       TextSpan(
                                         text: '2020/Commission',
-                                        style: SafeGoogleFont (
+                                        style: safeGoogleFont (
                                           'Halant',
                                           fontSize: 20*ffem,
                                           fontWeight: FontWeight.w400,
@@ -285,7 +285,7 @@ class ProjectScene extends StatelessWidget {
                                               await launchUrl(url as Uri);
                                             }
                                            },
-                                        style: SafeGoogleFont (
+                                        style: safeGoogleFont (
                                           'Halant',
                                           fontSize: 30*ffem,
                                           fontWeight: FontWeight.w600,
@@ -310,7 +310,7 @@ class ProjectScene extends StatelessWidget {
                                 child: RichText(
                                   textAlign: TextAlign.right,
                                   text: TextSpan(
-                                    style: SafeGoogleFont (
+                                    style: safeGoogleFont (
                                       'Halant',
                                       fontSize: 24*ffem,
                                       fontWeight: FontWeight.w400,
@@ -320,7 +320,7 @@ class ProjectScene extends StatelessWidget {
                                     children: [
                                       TextSpan(
                                         text: '2021/Commission',
-                                        style: SafeGoogleFont (
+                                        style: safeGoogleFont (
                                           'Halant',
                                           fontSize: 20*ffem,
                                           fontWeight: FontWeight.w400,
@@ -341,7 +341,7 @@ class ProjectScene extends StatelessWidget {
                                               await launchUrl(url as Uri);
                                             }
                                            },
-                                        style: SafeGoogleFont (
+                                        style: safeGoogleFont (
                                           'Halant',
                                           fontSize: 30*ffem,
                                           fontWeight: FontWeight.w600,
@@ -366,7 +366,7 @@ class ProjectScene extends StatelessWidget {
                                 child: RichText(
                                   textAlign: TextAlign.right,
                                   text: TextSpan(
-                                    style: SafeGoogleFont (
+                                    style: safeGoogleFont (
                                       'Halant',
                                       fontSize: 24*ffem,
                                       fontWeight: FontWeight.w400,
@@ -376,7 +376,7 @@ class ProjectScene extends StatelessWidget {
                                     children: [
                                       TextSpan(
                                         text: '2021/Commission',
-                                        style: SafeGoogleFont (
+                                        style: safeGoogleFont (
                                           'Halant',
                                           fontSize: 20*ffem,
                                           fontWeight: FontWeight.w400,
@@ -397,7 +397,7 @@ class ProjectScene extends StatelessWidget {
                                               await launchUrl(url as Uri);
                                             }
                                            },
-                                        style: SafeGoogleFont (
+                                        style: safeGoogleFont (
                                           'Halant',
                                           fontSize: 30*ffem,
                                           fontWeight: FontWeight.w600,
@@ -421,7 +421,7 @@ class ProjectScene extends StatelessWidget {
                                 height: 48*fem,
                                 child: RichText(
                                   text: TextSpan(
-                                    style: SafeGoogleFont (
+                                    style: safeGoogleFont (
                                       'Halant',
                                       fontSize: 24*ffem,
                                       fontWeight: FontWeight.w400,
@@ -431,7 +431,7 @@ class ProjectScene extends StatelessWidget {
                                     children: [
                                       TextSpan(
                                         text: '2022/Commission',
-                                        style: SafeGoogleFont (
+                                        style: safeGoogleFont (
                                           'Halant',
                                           fontSize: 20*ffem,
                                           fontWeight: FontWeight.w400,
@@ -452,7 +452,7 @@ class ProjectScene extends StatelessWidget {
                                               await launchUrl(url as Uri);
                                             }
                                            },
-                                        style: SafeGoogleFont (
+                                        style: safeGoogleFont (
                                           'Halant',
                                           fontSize: 30*ffem,
                                           fontWeight: FontWeight.w600,

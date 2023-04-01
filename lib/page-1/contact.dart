@@ -1,7 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:flutter/gestures.dart';
-import 'dart:ui';
-import 'package:google_fonts/google_fonts.dart';
 import 'package:portfolio_app/utils.dart';
 import 'package:portfolio_app/page-1/mainpage.dart';
 import 'package:portfolio_app/page-1/projects.dart';
@@ -53,7 +50,7 @@ class ContactScene extends StatelessWidget {
                     child: Text(
                       'Nicolas Arias Escudero',
                       textAlign: TextAlign.center,
-                      style: SafeGoogleFont (
+                      style: safeGoogleFont (
                         'Halant',
                         fontSize: 48*ffem,
                         fontWeight: FontWeight.w400,
@@ -77,7 +74,7 @@ class ContactScene extends StatelessWidget {
                     child: Text(
                       'Diseñador & Desarrollador',
                       textAlign: TextAlign.center,
-                      style: SafeGoogleFont (
+                      style: safeGoogleFont (
                         'Halant',
                         fontSize: 36*ffem,
                         fontWeight: FontWeight.w400,
@@ -122,7 +119,7 @@ class ContactScene extends StatelessWidget {
                     ),
                     child: Text(
                       'Projects',
-                      style: SafeGoogleFont (
+                      style: safeGoogleFont (
                         'Halant',
                         fontSize: 36*ffem,
                         fontWeight: FontWeight.w700,
@@ -151,7 +148,7 @@ class ContactScene extends StatelessWidget {
                     ),
                     child: Text(
                       'Home',
-                      style: SafeGoogleFont (
+                      style: safeGoogleFont (
                         'Halant',
                         fontSize: 36*ffem,
                         fontWeight: FontWeight.w700,
@@ -173,7 +170,7 @@ class ContactScene extends StatelessWidget {
                   height: 101*fem,
                   child: Text(
                     '•',
-                    style: SafeGoogleFont (
+                    style: safeGoogleFont (
                       'Halant',
                       fontSize: 64*ffem,
                       fontWeight: FontWeight.w700,
@@ -201,7 +198,7 @@ class ContactScene extends StatelessWidget {
                     ),
                     child: Text(
                       'Info',
-                      style: SafeGoogleFont (
+                      style: safeGoogleFont (
                         'Halant',
                         fontSize: 36*ffem,
                         fontWeight: FontWeight.w700,
@@ -229,7 +226,7 @@ class ContactScene extends StatelessWidget {
                       ),
                       child: Text(
                         'Get me on:\njusttryingstuff1912@gmail.com',
-                        style: SafeGoogleFont (
+                        style: safeGoogleFont (
                           'Halant',
                           fontSize: 24*ffem,
                           fontWeight: FontWeight.w400,

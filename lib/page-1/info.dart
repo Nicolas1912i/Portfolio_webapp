@@ -50,7 +50,7 @@ class InfoScene extends StatelessWidget {
                     child: Text(
                       'Nicolas Arias Escudero',
                       textAlign: TextAlign.center,
-                      style: SafeGoogleFont (
+                      style: safeGoogleFont (
                         'Halant',
                         fontSize: 48*ffem,
                         fontWeight: FontWeight.w400,
@@ -74,7 +74,7 @@ class InfoScene extends StatelessWidget {
                     child: Text(
                       'Diseñador & Desarrollador',
                       textAlign: TextAlign.center,
-                      style: SafeGoogleFont (
+                      style: safeGoogleFont (
                         'Halant',
                         fontSize: 36*ffem,
                         fontWeight: FontWeight.w400,
@@ -119,7 +119,7 @@ class InfoScene extends StatelessWidget {
                     ),
                     child: Text(
                       'Projects',
-                      style: SafeGoogleFont (
+                      style: safeGoogleFont (
                         'Halant',
                         fontSize: 36*ffem,
                         fontWeight: FontWeight.w700,
@@ -148,7 +148,7 @@ class InfoScene extends StatelessWidget {
                     ),
                     child: Text(
                       'Home',
-                      style: SafeGoogleFont (
+                      style: safeGoogleFont (
                         'Halant',
                         fontSize: 36*ffem,
                         fontWeight: FontWeight.w700,
@@ -170,7 +170,7 @@ class InfoScene extends StatelessWidget {
                   height: 101*fem,
                   child: Text(
                     '•',
-                    style: SafeGoogleFont (
+                    style: safeGoogleFont (
                       'Halant',
                       fontSize: 64*ffem,
                       fontWeight: FontWeight.w700,
@@ -198,7 +198,7 @@ class InfoScene extends StatelessWidget {
                     ),
                     child: Text(
                       'Contact',
-                      style: SafeGoogleFont (
+                      style: safeGoogleFont (
                         'Halant',
                         fontSize: 36*ffem,
                         fontWeight: FontWeight.w700,
@@ -225,7 +225,7 @@ class InfoScene extends StatelessWidget {
                       margin: EdgeInsets.fromLTRB(0*fem, 0*fem, 0*fem, 28*fem),
                       child: Text(
                         'Twitter →',
-                        style: SafeGoogleFont (
+                        style: safeGoogleFont (
                           'Halant',
                           fontSize: 24*ffem,
                           fontWeight: FontWeight.w400,
@@ -237,7 +237,7 @@ class InfoScene extends StatelessWidget {
                     Text(
                       // twitterAk5 (13:155)
                       'Github →',
-                      style: SafeGoogleFont (
+                      style: safeGoogleFont (
                         'Halant',
                         fontSize: 24*ffem,
                         fontWeight: FontWeight.w400,

@@ -12,7 +12,7 @@ class MainScene extends StatelessWidget {
     double baseWidth = 1440;
     double fem = MediaQuery.of(context).size.width / baseWidth;
     double ffem = fem * 0.97;
-    return Container(
+    return SizedBox(
       width: double.infinity,
       child: Container(
         // mainpage3Ad (1:2)
@@ -50,7 +50,7 @@ class MainScene extends StatelessWidget {
                     child: Text(
                       'Nicolas Arias Escudero',
                       textAlign: TextAlign.center,
-                      style: SafeGoogleFont (
+                      style: safeGoogleFont (
                         'Halant',
                         fontSize: 48*ffem,
                         fontWeight: FontWeight.w400,
@@ -74,7 +74,7 @@ class MainScene extends StatelessWidget {
                     child: Text(
                       'Diseñador & Desarrollador',
                       textAlign: TextAlign.center,
-                      style: SafeGoogleFont (
+                      style: safeGoogleFont (
                         'Halant',
                         fontSize: 36*ffem,
                         fontWeight: FontWeight.w400,
@@ -119,7 +119,7 @@ class MainScene extends StatelessWidget {
                     ),
                     child: Text(
                       'Info',
-                      style: SafeGoogleFont (
+                      style: safeGoogleFont (
                         'Halant',
                         fontSize: 36*ffem,
                         fontWeight: FontWeight.w700,
@@ -141,7 +141,7 @@ class MainScene extends StatelessWidget {
                   height: 101*fem,
                   child: Text(
                     '•',
-                    style: SafeGoogleFont (
+                    style: safeGoogleFont (
                       'Halant',
                       fontSize: 64*ffem,
                       fontWeight: FontWeight.w700,
@@ -169,7 +169,7 @@ class MainScene extends StatelessWidget {
                     ),
                     child: Text(
                       'Contact',
-                      style: SafeGoogleFont (
+                      style: safeGoogleFont (
                         'Halant',
                         fontSize: 36*ffem,
                         fontWeight: FontWeight.w700,
@@ -191,7 +191,7 @@ class MainScene extends StatelessWidget {
                   height: 227*fem,
                   child: Text(
                     '“I always get to where I\'m going by walking away from where I have been.”\nWinnie Pooh',
-                    style: SafeGoogleFont (
+                    style: safeGoogleFont (
                       'Halant',
                       fontSize: 24*ffem,
                       fontWeight: FontWeight.w400,
@@ -219,7 +219,7 @@ class MainScene extends StatelessWidget {
                     ),
                     child: Text(
                       'Projects',
-                      style: SafeGoogleFont (
+                      style: safeGoogleFont (
                         'Halant',
                         fontSize: 36*ffem,
                         fontWeight: FontWeight.w700,
