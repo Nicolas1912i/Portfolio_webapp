@@ -14,7 +14,7 @@ class ProjectScene extends StatelessWidget {
     double baseWidth = 1440;
     double fem = MediaQuery.of(context).size.width / baseWidth;
     double ffem = fem * 0.97;
-    return Container(
+    return SizedBox(
       width: double.infinity,
       child: Container(
         // projects2G5 (13:129)

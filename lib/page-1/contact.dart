@@ -15,7 +15,7 @@ class ContactScene extends StatelessWidget {
     double baseWidth = 1440;
     double fem = MediaQuery.of(context).size.width / baseWidth;
     double ffem = fem * 0.97;
-    return Container(
+    return SizedBox(
       width: double.infinity,
       child: Container(
         // contactBMf (13:156)
@@ -217,7 +217,7 @@ class ContactScene extends StatelessWidget {
               // projectsscrollhAu (13:165)
               left: 1003*fem,
               top: 580.5*fem,
-              child: Container(
+              child: SizedBox(
                 width: 310*fem,
                 height: 76*fem,
                 child: Center(

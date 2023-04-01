@@ -12,7 +12,7 @@ class InfoScene extends StatelessWidget {
     double baseWidth = 1440;
     double fem = MediaQuery.of(context).size.width / baseWidth;
     double ffem = fem * 0.97;
-    return Container(
+    return SizedBox(
       width: double.infinity,
       child: Container(
         // infoEih (13:144)
@@ -214,7 +214,7 @@ class InfoScene extends StatelessWidget {
               // projectsscroll2EZ (13:153)
               left: 993*fem,
               top: 593*fem,
-              child: Container(
+              child: SizedBox(
                 width: 100*fem,
                 height: 104*fem,
                 child: Column(
