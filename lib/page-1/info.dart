@@ -1,8 +1,10 @@
 import 'package:flutter/material.dart';
+import 'package:flutter/gestures.dart';
 import 'package:portfolio_app/utils.dart';
 import 'package:portfolio_app/page-1/mainpage.dart';
 import 'package:portfolio_app/page-1/projects.dart';
 import 'package:portfolio_app/page-1/contact.dart';
+import 'package:url_launcher/url_launcher.dart';
 
 class InfoScene extends StatelessWidget {
   const InfoScene({super.key});
@@ -223,26 +225,56 @@ class InfoScene extends StatelessWidget {
                     Container(
                       // twitterWQd (13:154)
                       margin: EdgeInsets.fromLTRB(0*fem, 0*fem, 0*fem, 28*fem),
-                      child: Text(
-                        'Twitter →',
-                        style: safeGoogleFont (
-                          'Halant',
-                          fontSize: 24*ffem,
-                          fontWeight: FontWeight.w400,
-                          height: 1.575*ffem/fem,
-                          color: const Color(0xffffffff),
+                      child: RichText(
+                        text: TextSpan(
+                          children: [
+                            TextSpan(
+                              text: 'Twitter →',
+                              recognizer: TapGestureRecognizer()
+                                ..onTap = () async {
+                                String url = "https://twitter.com/Nicolas1912i";
+                                var urllaunchable = await canLaunchUrl(url as Uri);
+                                if (urllaunchable){
+                                  await launchUrl(url as Uri);
+                                  }
+                                },
+                              style: safeGoogleFont (
+                                'Halant',
+                                fontSize: 20*ffem,
+                                fontWeight: FontWeight.w400,
+                                height: 1.575*ffem/fem,
+                                color: const Color(0xffffffff),
+                              ),
+                            ),
+                          ],
                         ),
                       ),
                     ),
-                    Text(
-                      // twitterAk5 (13:155)
-                      'Github →',
-                      style: safeGoogleFont (
-                        'Halant',
-                        fontSize: 24*ffem,
-                        fontWeight: FontWeight.w400,
-                        height: 1.575*ffem/fem,
-                        color: const Color(0xffffffff),
+                    Container(
+                      margin: EdgeInsets.fromLTRB(0*fem, 0*fem, 0*fem, 28*fem),
+                      child: RichText(
+                        text: TextSpan(
+                          children: [
+                            TextSpan(
+                              text: 'Github →',
+                              recognizer: TapGestureRecognizer()
+                                ..onTap = () async {
+                                String url = "https://github.com/Nicolas1912i";
+                                var urllaunchable = await canLaunchUrl(url as Uri);
+                                if (urllaunchable){
+                                  await launchUrl(url as Uri);
+                                  }
+                                },
+                              style: safeGoogleFont (
+                                'Halant',
+                                fontSize: 20*ffem,
+                                fontWeight: FontWeight.w400,
+                                height: 1.575*ffem/fem,
+                                color: const Color(0xffffffff),
+                              ),
+                            ),
+                          ],
+                        ),
                       ),
                     ),
                   ],
