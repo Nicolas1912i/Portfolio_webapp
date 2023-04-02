@@ -55,7 +55,7 @@ class InfoScene extends StatelessWidget {
                     height: 76*fem,
                     child: Text(
                       'Nicolas Arias Escudero',
-                      textAlign: TextAlign.center,
+                      textAlign: TextAlign.left,
                       style: safeGoogleFont (
                         'Halant',
                         decoration: TextDecoration.none,
