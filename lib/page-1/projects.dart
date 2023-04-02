@@ -22,6 +22,32 @@ class ProjectScene extends StatelessWidget {
     double baseWidth = 1440;
     double fem = MediaQuery.of(context).size.width / baseWidth;
     double ffem = fem * 0.97;
+    return SingleChildScrollView(
+      child: ProjectBox(fem: fem, ffem: ffem, firstUri: firstUri, secondUri: secondUri, thirdUri: thirdUri, fourthUri: fourthUri),
+    );
+  }
+}
+
+class ProjectBox extends StatelessWidget {
+  const ProjectBox({
+    super.key,
+    required this.fem,
+    required this.ffem,
+    required this.firstUri,
+    required this.secondUri,
+    required this.thirdUri,
+    required this.fourthUri,
+  });
+
+  final double fem;
+  final double ffem;
+  final Uri firstUri;
+  final Uri secondUri;
+  final Uri thirdUri;
+  final Uri fourthUri;
+
+  @override
+  Widget build(BuildContext context) {
     return SizedBox(
       width: double.infinity,
       child: Container(

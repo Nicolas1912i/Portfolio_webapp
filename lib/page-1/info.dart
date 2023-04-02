@@ -18,6 +18,28 @@ class InfoScene extends StatelessWidget {
     double baseWidth = 1440;
     double fem = MediaQuery.of(context).size.width / baseWidth;
     double ffem = fem * 0.97;
+    return SingleChildScrollView(
+      child: InfoBox(fem: fem, ffem: ffem, twitterUri: twitterUri, githubUri: githubUri),
+    );
+  }
+}
+
+class InfoBox extends StatelessWidget {
+  const InfoBox({
+    super.key,
+    required this.fem,
+    required this.ffem,
+    required this.twitterUri,
+    required this.githubUri,
+  });
+
+  final double fem;
+  final double ffem;
+  final Uri twitterUri;
+  final Uri githubUri;
+
+  @override
+  Widget build(BuildContext context) {
     return SizedBox(
       width: double.infinity,
       child: Container(

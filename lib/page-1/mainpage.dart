@@ -12,6 +12,24 @@ class MainScene extends StatelessWidget {
     double baseWidth = 1440;
     double fem = MediaQuery.of(context).size.width / baseWidth;
     double ffem = fem * 0.97;
+    return SingleChildScrollView(
+      child: MainBox(fem: fem, ffem: ffem),
+    );
+  }
+}
+
+class MainBox extends StatelessWidget {
+  const MainBox({
+    super.key,
+    required this.fem,
+    required this.ffem,
+  });
+
+  final double fem;
+  final double ffem;
+
+  @override
+  Widget build(BuildContext context) {
     return SizedBox(
       width: double.infinity,
       child: Container(

@@ -12,6 +12,24 @@ class ContactScene extends StatelessWidget {
     double baseWidth = 1440;
     double fem = MediaQuery.of(context).size.width / baseWidth;
     double ffem = fem * 0.97;
+    return SingleChildScrollView(
+      child: ContactBox(fem: fem, ffem: ffem),
+    );
+  }
+}
+
+class ContactBox extends StatelessWidget {
+  const ContactBox({
+    super.key,
+    required this.fem,
+    required this.ffem,
+  });
+
+  final double fem;
+  final double ffem;
+
+  @override
+  Widget build(BuildContext context) {
     return SizedBox(
       width: double.infinity,
       child: Container(
@@ -221,17 +239,17 @@ class ContactScene extends StatelessWidget {
               left: 1003*fem,
               top: 580.5*fem,
               child: SizedBox(
-                width: 310*fem,
+                width: 350*fem,
                 height: 76*fem,
                 child: Center(
                   // twitterCNZ (13:166)
                   child: SizedBox(
                     child: Container(
                       constraints: BoxConstraints (
-                        maxWidth: 310*fem,
+                        maxWidth: 350*fem,
                       ),
                       child: Text(
-                        'Get me on:\njusttryingstuff1912@gmail.com',
+                        'Get me on:\nnicolasarias.contacto@gmail.com',
                         style: safeGoogleFont (
                           'Halant',
                           decoration: TextDecoration.none,
