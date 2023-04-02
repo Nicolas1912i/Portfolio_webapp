@@ -15,7 +15,7 @@ class MyApp extends StatelessWidget {
 		scrollBehavior: MyCustomScrollBehavior(),
 		theme: ThemeData(
 		primarySwatch: Colors.blue,
-    scaffoldBackgroundColor: const Color.fromARGB(100, 0, 0, 0)
+    scaffoldBackgroundColor: const Color.fromARGB(255, 0, 0, 0)
 		),
 		home: const Scaffold(
 		body: SingleChildScrollView(
