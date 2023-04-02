@@ -54,6 +54,7 @@ class ProjectScene extends StatelessWidget {
                       textAlign: TextAlign.center,
                       style: safeGoogleFont (
                         'Halant',
+                        decoration: TextDecoration.none,
                         fontSize: 48*ffem,
                         fontWeight: FontWeight.w400,
                         height: 1.575*ffem/fem,
@@ -78,6 +79,7 @@ class ProjectScene extends StatelessWidget {
                       textAlign: TextAlign.center,
                       style: safeGoogleFont (
                         'Halant',
+                        decoration: TextDecoration.none,
                         fontSize: 36*ffem,
                         fontWeight: FontWeight.w400,
                         height: 1.575*ffem/fem,
@@ -123,6 +125,7 @@ class ProjectScene extends StatelessWidget {
                       'Info',
                       style: safeGoogleFont (
                         'Halant',
+                        decoration: TextDecoration.none,
                         fontSize: 36*ffem,
                         fontWeight: FontWeight.w700,
                         height: 1.575*ffem/fem,
@@ -152,6 +155,7 @@ class ProjectScene extends StatelessWidget {
                       'Home',
                       style: safeGoogleFont (
                         'Halant',
+                        decoration: TextDecoration.none,
                         fontSize: 36*ffem,
                         fontWeight: FontWeight.w700,
                         height: 1.575*ffem/fem,
@@ -174,6 +178,7 @@ class ProjectScene extends StatelessWidget {
                     '•',
                     style: safeGoogleFont (
                       'Halant',
+                      decoration: TextDecoration.none,
                       fontSize: 64*ffem,
                       fontWeight: FontWeight.w700,
                       height: 1.575*ffem/fem,
@@ -202,6 +207,7 @@ class ProjectScene extends StatelessWidget {
                       'Contact',
                       style: safeGoogleFont (
                         'Halant',
+                        decoration: TextDecoration.none,
                         fontSize: 36*ffem,
                         fontWeight: FontWeight.w700,
                         height: 1.575*ffem/fem,
@@ -230,6 +236,7 @@ class ProjectScene extends StatelessWidget {
                         '■ Projects (Design & Develop)',
                         style: safeGoogleFont (
                           'Halant',
+                          decoration: TextDecoration.none,
                           fontSize: 24*ffem,
                           fontWeight: FontWeight.w400,
                           height: 1.575*ffem/fem,
@@ -256,6 +263,7 @@ class ProjectScene extends StatelessWidget {
                                   text: TextSpan(
                                     style: safeGoogleFont (
                                       'Halant',
+                                      decoration: TextDecoration.none,
                                       fontSize: 24*ffem,
                                       fontWeight: FontWeight.w400,
                                       height: 1.575*ffem/fem,
@@ -266,6 +274,7 @@ class ProjectScene extends StatelessWidget {
                                         text: '2020/Commission',
                                         style: safeGoogleFont (
                                           'Halant',
+                                          decoration: TextDecoration.none,
                                           fontSize: 20*ffem,
                                           fontWeight: FontWeight.w400,
                                           height: 1.575*ffem/fem,
@@ -287,6 +296,7 @@ class ProjectScene extends StatelessWidget {
                                            },
                                         style: safeGoogleFont (
                                           'Halant',
+                                          decoration: TextDecoration.none,
                                           fontSize: 30*ffem,
                                           fontWeight: FontWeight.w600,
                                           height: 1.575*ffem/fem,
@@ -312,6 +322,7 @@ class ProjectScene extends StatelessWidget {
                                   text: TextSpan(
                                     style: safeGoogleFont (
                                       'Halant',
+                                      decoration: TextDecoration.none,
                                       fontSize: 24*ffem,
                                       fontWeight: FontWeight.w400,
                                       height: 1.575*ffem/fem,
@@ -322,6 +333,7 @@ class ProjectScene extends StatelessWidget {
                                         text: '2021/Commission',
                                         style: safeGoogleFont (
                                           'Halant',
+                                          decoration: TextDecoration.none,
                                           fontSize: 20*ffem,
                                           fontWeight: FontWeight.w400,
                                           height: 1.575*ffem/fem,
@@ -343,6 +355,7 @@ class ProjectScene extends StatelessWidget {
                                            },
                                         style: safeGoogleFont (
                                           'Halant',
+                                          decoration: TextDecoration.none,
                                           fontSize: 30*ffem,
                                           fontWeight: FontWeight.w600,
                                           height: 1.575*ffem/fem,
@@ -368,6 +381,7 @@ class ProjectScene extends StatelessWidget {
                                   text: TextSpan(
                                     style: safeGoogleFont (
                                       'Halant',
+                                      decoration: TextDecoration.none,
                                       fontSize: 24*ffem,
                                       fontWeight: FontWeight.w400,
                                       height: 1.575*ffem/fem,
@@ -378,6 +392,7 @@ class ProjectScene extends StatelessWidget {
                                         text: '2021/Commission',
                                         style: safeGoogleFont (
                                           'Halant',
+                                          decoration: TextDecoration.none,
                                           fontSize: 20*ffem,
                                           fontWeight: FontWeight.w400,
                                           height: 1.575*ffem/fem,
@@ -399,6 +414,7 @@ class ProjectScene extends StatelessWidget {
                                            },
                                         style: safeGoogleFont (
                                           'Halant',
+                                          decoration: TextDecoration.none,
                                           fontSize: 30*ffem,
                                           fontWeight: FontWeight.w600,
                                           height: 1.575*ffem/fem,
@@ -423,6 +439,7 @@ class ProjectScene extends StatelessWidget {
                                   text: TextSpan(
                                     style: safeGoogleFont (
                                       'Halant',
+                                      decoration: TextDecoration.none,
                                       fontSize: 24*ffem,
                                       fontWeight: FontWeight.w400,
                                       height: 1.575*ffem/fem,
@@ -433,6 +450,7 @@ class ProjectScene extends StatelessWidget {
                                         text: '2022/Commission',
                                         style: safeGoogleFont (
                                           'Halant',
+                                          decoration: TextDecoration.none,
                                           fontSize: 20*ffem,
                                           fontWeight: FontWeight.w400,
                                           height: 1.4*ffem/fem,
@@ -454,6 +472,7 @@ class ProjectScene extends StatelessWidget {
                                            },
                                         style: safeGoogleFont (
                                           'Halant',
+                                          decoration: TextDecoration.none,
                                           fontSize: 30*ffem,
                                           fontWeight: FontWeight.w600,
                                           height: 1.4*ffem/fem,

@@ -52,6 +52,7 @@ class MainScene extends StatelessWidget {
                       textAlign: TextAlign.center,
                       style: safeGoogleFont (
                         'Halant',
+                        decoration: TextDecoration.none,
                         fontSize: 48*ffem,
                         fontWeight: FontWeight.w400,
                         height: 1.575*ffem/fem,
@@ -76,6 +77,7 @@ class MainScene extends StatelessWidget {
                       textAlign: TextAlign.center,
                       style: safeGoogleFont (
                         'Halant',
+                        decoration: TextDecoration.none,
                         fontSize: 36*ffem,
                         fontWeight: FontWeight.w400,
                         height: 1.575*ffem/fem,
@@ -121,6 +123,7 @@ class MainScene extends StatelessWidget {
                       'Info',
                       style: safeGoogleFont (
                         'Halant',
+                        decoration: TextDecoration.none,
                         fontSize: 36*ffem,
                         fontWeight: FontWeight.w700,
                         height: 1.575*ffem/fem,
@@ -143,6 +146,7 @@ class MainScene extends StatelessWidget {
                     '•',
                     style: safeGoogleFont (
                       'Halant',
+                      decoration: TextDecoration.none,
                       fontSize: 64*ffem,
                       fontWeight: FontWeight.w700,
                       height: 1.575*ffem/fem,
@@ -171,6 +175,7 @@ class MainScene extends StatelessWidget {
                       'Contact',
                       style: safeGoogleFont (
                         'Halant',
+                        decoration: TextDecoration.none,
                         fontSize: 36*ffem,
                         fontWeight: FontWeight.w700,
                         height: 1.575*ffem/fem,
@@ -193,6 +198,7 @@ class MainScene extends StatelessWidget {
                     '“I always get to where I\'m going by walking away from where I have been.”\nWinnie Pooh',
                     style: safeGoogleFont (
                       'Halant',
+                      decoration: TextDecoration.none,
                       fontSize: 24*ffem,
                       fontWeight: FontWeight.w400,
                       height: 1.575*ffem/fem,
@@ -221,6 +227,7 @@ class MainScene extends StatelessWidget {
                       'Projects',
                       style: safeGoogleFont (
                         'Halant',
+                        decoration: TextDecoration.none,
                         fontSize: 36*ffem,
                         fontWeight: FontWeight.w700,
                         height: 1.575*ffem/fem,

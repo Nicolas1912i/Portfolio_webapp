@@ -54,6 +54,7 @@ class InfoScene extends StatelessWidget {
                       textAlign: TextAlign.center,
                       style: safeGoogleFont (
                         'Halant',
+                        decoration: TextDecoration.none,
                         fontSize: 48*ffem,
                         fontWeight: FontWeight.w400,
                         height: 1.575*ffem/fem,
@@ -78,6 +79,7 @@ class InfoScene extends StatelessWidget {
                       textAlign: TextAlign.center,
                       style: safeGoogleFont (
                         'Halant',
+                        decoration: TextDecoration.none,
                         fontSize: 36*ffem,
                         fontWeight: FontWeight.w400,
                         height: 1.575*ffem/fem,
@@ -123,6 +125,7 @@ class InfoScene extends StatelessWidget {
                       'Projects',
                       style: safeGoogleFont (
                         'Halant',
+                        decoration: TextDecoration.none,
                         fontSize: 36*ffem,
                         fontWeight: FontWeight.w700,
                         height: 1.575*ffem/fem,
@@ -152,6 +155,7 @@ class InfoScene extends StatelessWidget {
                       'Home',
                       style: safeGoogleFont (
                         'Halant',
+                        decoration: TextDecoration.none,
                         fontSize: 36*ffem,
                         fontWeight: FontWeight.w700,
                         height: 1.575*ffem/fem,
@@ -174,6 +178,7 @@ class InfoScene extends StatelessWidget {
                     '•',
                     style: safeGoogleFont (
                       'Halant',
+                      decoration: TextDecoration.none,
                       fontSize: 64*ffem,
                       fontWeight: FontWeight.w700,
                       height: 1.575*ffem/fem,
@@ -202,6 +207,7 @@ class InfoScene extends StatelessWidget {
                       'Contact',
                       style: safeGoogleFont (
                         'Halant',
+                        decoration: TextDecoration.none,
                         fontSize: 36*ffem,
                         fontWeight: FontWeight.w700,
                         height: 1.575*ffem/fem,
@@ -218,7 +224,7 @@ class InfoScene extends StatelessWidget {
               top: 593*fem,
               child: SizedBox(
                 width: 100*fem,
-                height: 104*fem,
+                height: 120*fem,
                 child: Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
@@ -240,6 +246,7 @@ class InfoScene extends StatelessWidget {
                                 },
                               style: safeGoogleFont (
                                 'Halant',
+                                decoration: TextDecoration.none,
                                 fontSize: 20*ffem,
                                 fontWeight: FontWeight.w400,
                                 height: 1.575*ffem/fem,
@@ -267,6 +274,7 @@ class InfoScene extends StatelessWidget {
                                 },
                               style: safeGoogleFont (
                                 'Halant',
+                                decoration: TextDecoration.none,
                                 fontSize: 20*ffem,
                                 fontWeight: FontWeight.w400,
                                 height: 1.575*ffem/fem,
