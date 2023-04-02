@@ -73,8 +73,8 @@ class ContactScene extends StatelessWidget {
                     width: 393*fem,
                     height: 57*fem,
                     child: Text(
-                      'Diseñador & Desarrollador',
-                      textAlign: TextAlign.center,
+                      'Designer & Developer',
+                      textAlign: TextAlign.left,
                       style: safeGoogleFont (
                         'Halant',
                         decoration: TextDecoration.none,

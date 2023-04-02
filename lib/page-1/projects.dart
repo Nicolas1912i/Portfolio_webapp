@@ -11,6 +11,14 @@ class ProjectScene extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    const firstUrl = "https://github.com/Nicolas1912i/Solidos_de_revolucion";
+    const secondUrl = "https://github.com/Nicolas1912i/Secciones_Conicas";
+    const thirdUrl = "https://github.com/Nicolas1912i/MicroWorlds";
+    const fourthUrl = "https://github.com/Nicolas1912i/Nematodos_Fitoparasitos";
+    final firstUri = Uri.parse(firstUrl);
+    final secondUri = Uri.parse(secondUrl);
+    final thirdUri = Uri.parse(thirdUrl);
+    final fourthUri = Uri.parse(fourthUrl);
     double baseWidth = 1440;
     double fem = MediaQuery.of(context).size.width / baseWidth;
     double ffem = fem * 0.97;
@@ -75,8 +83,8 @@ class ProjectScene extends StatelessWidget {
                     width: 393*fem,
                     height: 57*fem,
                     child: Text(
-                      'Diseñador & Desarrollador',
-                      textAlign: TextAlign.center,
+                      'Designer & Developer',
+                      textAlign: TextAlign.left,
                       style: safeGoogleFont (
                         'Halant',
                         decoration: TextDecoration.none,
@@ -287,13 +295,7 @@ class ProjectScene extends StatelessWidget {
                                       TextSpan(
                                         text: 'Sólidos de revolución (Unity)',
                                         recognizer: TapGestureRecognizer()
-                                           ..onTap = () async {
-                                            String url = "https://github.com/Nicolas1912i/Solidos_de_revolucion";
-                                            var urllaunchable = await canLaunchUrl(url as Uri);
-                                            if (urllaunchable){
-                                              await launchUrl(url as Uri);
-                                            }
-                                           },
+                                           ..onTap = () => launchUrl(firstUri),
                                         style: safeGoogleFont (
                                           'Halant',
                                           decoration: TextDecoration.none,
@@ -346,13 +348,7 @@ class ProjectScene extends StatelessWidget {
                                       TextSpan(
                                         text: 'Secciones cónicas (Unity)',
                                         recognizer: TapGestureRecognizer()
-                                           ..onTap = () async {
-                                            String url = "https://github.com/Nicolas1912i/Secciones_Conicas";
-                                            var urllaunchable = await canLaunchUrl(url as Uri);
-                                            if (urllaunchable){
-                                              await launchUrl(url as Uri);
-                                            }
-                                           },
+                                           ..onTap = () => launchUrl(secondUri),
                                         style: safeGoogleFont (
                                           'Halant',
                                           decoration: TextDecoration.none,
@@ -405,13 +401,7 @@ class ProjectScene extends StatelessWidget {
                                       TextSpan(
                                         text: 'MicroWorlds (Unity)',
                                         recognizer: TapGestureRecognizer()
-                                           ..onTap = () async {
-                                            String url = "https://github.com/Nicolas1912i/MicroWorlds";
-                                            var urllaunchable = await canLaunchUrl(url as Uri);
-                                            if (urllaunchable){
-                                              await launchUrl(url as Uri);
-                                            }
-                                           },
+                                           ..onTap = () => launchUrl(thirdUri),
                                         style: safeGoogleFont (
                                           'Halant',
                                           decoration: TextDecoration.none,
@@ -463,13 +453,7 @@ class ProjectScene extends StatelessWidget {
                                       TextSpan(
                                         text: 'Nematodos fitoparásitos (Unity)',
                                         recognizer: TapGestureRecognizer()
-                                           ..onTap = () async {
-                                            String url = "https://github.com/Nicolas1912i/Nematodos_Fitoparasitos";
-                                            var urllaunchable = await canLaunchUrl(url as Uri);
-                                            if (urllaunchable){
-                                              await launchUrl(url as Uri);
-                                            }
-                                           },
+                                           ..onTap = () => launchUrl(fourthUri),
                                         style: safeGoogleFont (
                                           'Halant',
                                           decoration: TextDecoration.none,

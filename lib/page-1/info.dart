@@ -11,6 +11,10 @@ class InfoScene extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    const twitterUrl = "https://twitter.com/Nicolas1912i";
+    const githubUrl = "https://github.com/Nicolas1912i";
+    final twitterUri = Uri.parse(twitterUrl);
+    final githubUri = Uri.parse(githubUrl);
     double baseWidth = 1440;
     double fem = MediaQuery.of(context).size.width / baseWidth;
     double ffem = fem * 0.97;
@@ -75,8 +79,8 @@ class InfoScene extends StatelessWidget {
                     width: 393*fem,
                     height: 57*fem,
                     child: Text(
-                      'Diseñador & Desarrollador',
-                      textAlign: TextAlign.center,
+                      'Designer & Developer',
+                      textAlign: TextAlign.left,
                       style: safeGoogleFont (
                         'Halant',
                         decoration: TextDecoration.none,
@@ -224,7 +228,7 @@ class InfoScene extends StatelessWidget {
               top: 593*fem,
               child: SizedBox(
                 width: 100*fem,
-                height: 120*fem,
+                height: 130*fem,
                 child: Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
@@ -237,13 +241,7 @@ class InfoScene extends StatelessWidget {
                             TextSpan(
                               text: 'Twitter →',
                               recognizer: TapGestureRecognizer()
-                                ..onTap = () async {
-                                String url = "https://twitter.com/Nicolas1912i";
-                                var urllaunchable = await canLaunchUrl(url as Uri);
-                                if (urllaunchable){
-                                  await launchUrl(url as Uri);
-                                  }
-                                },
+                                ..onTap = () => launchUrl(twitterUri),
                               style: safeGoogleFont (
                                 'Halant',
                                 decoration: TextDecoration.none,
@@ -265,13 +263,7 @@ class InfoScene extends StatelessWidget {
                             TextSpan(
                               text: 'Github →',
                               recognizer: TapGestureRecognizer()
-                                ..onTap = () async {
-                                String url = "https://github.com/Nicolas1912i";
-                                var urllaunchable = await canLaunchUrl(url as Uri);
-                                if (urllaunchable){
-                                  await launchUrl(url as Uri);
-                                  }
-                                },
+                                ..onTap = () => launchUrl(githubUri),
                               style: safeGoogleFont (
                                 'Halant',
                                 decoration: TextDecoration.none,
