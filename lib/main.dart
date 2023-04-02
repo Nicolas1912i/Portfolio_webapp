@@ -10,7 +10,7 @@ class MyApp extends StatelessWidget {
 	@override
 	Widget build(BuildContext context) {
 	return MaterialApp(
-		title: 'Nicolas Arias Portfolio',
+		title: 'Nicolas Arias Escudero',
 		debugShowCheckedModeBanner: false,
 		scrollBehavior: MyCustomScrollBehavior(),
 		theme: ThemeData(
