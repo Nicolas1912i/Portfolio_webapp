@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
+import 'package:flutter/gestures.dart';
 import 'package:portfolio_app/utils.dart';
+import 'package:url_launcher/url_launcher.dart';
 import 'package:portfolio_app/page-1/mainpage.dart';
 import 'package:portfolio_app/page-1/projects.dart';
 import 'package:portfolio_app/page-1/info.dart';
@@ -30,6 +32,8 @@ class ContactBox extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    const mailUrl = "mailto:nicolasarias.contacto@gmail.com";
+    final mailUri = Uri.parse(mailUrl);
     return SizedBox(
       width: double.infinity,
       child: Container(
@@ -248,17 +252,25 @@ class ContactBox extends StatelessWidget {
                       constraints: BoxConstraints (
                         maxWidth: 350*fem,
                       ),
-                      child: Text(
-                        'Get me on:\nnicolasarias.contacto@gmail.com',
-                        style: safeGoogleFont (
-                          'Halant',
-                          decoration: TextDecoration.none,
-                          fontSize: 24*ffem,
-                          fontWeight: FontWeight.w400,
-                          height: 1.575*ffem/fem,
-                          color: const Color(0xffffffff),
-                        ),
-                      ),
+                      child: RichText(
+                        text: TextSpan(
+                          children: [
+                            TextSpan(
+                              text: 'Get me on:\nnicolasarias.contacto@gmail.com',
+                              recognizer: TapGestureRecognizer()
+                                ..onTap = () => launchUrl(mailUri),
+                              style: safeGoogleFont (
+                                'Halant',
+                                decoration: TextDecoration.none,
+                                fontSize: 24*ffem,
+                                fontWeight: FontWeight.w400,
+                                height: 1.575*ffem/fem,
+                                color: const Color(0xffffffff),
+                              )
+                            ) 
+                          ]
+                        )
+                      )
                     ),
                   ),
                 ),
